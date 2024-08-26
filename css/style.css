@@ -2,9 +2,6 @@
 body{
     font-family: 'Lato' sans-serif;
 }
-html, body {
-    overflow-x: hidden; /* Cache la barre de défilement horizontale */
-}
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
 }
@@ -34,6 +31,24 @@ section .heading h2{
 }
 ul{
     list-style: none;
+}
+.button1{
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 18px 50px;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 0.3s ease-in 0s;
+    background: transparent;
+
+}
+.button1:hover{
+    background: #fff;
+    color:#d82c2e;
 }
 /*NAVBAR*/
 
@@ -73,23 +88,6 @@ ul{
     color:#fff;
     text-transform: uppercase;
     margin-bottom: 20px;
-}
-.button1{
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    border: 1px solid #fff;
-    padding: 18px 50px;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    margin-top: 20px;
-    transition: all 0.3s ease-in 0s;
-
-}
-.button1:hover{
-    background: #fff;
-    color:#d82c2e;
 }
 /*SKILLS*/
 #skills .heading h2 {
@@ -285,4 +283,41 @@ footer span:hover{
 footer h5 {
     color:#fff;
     font-weight: normal;
+}
+/*CONTACT*/
+#contact{
+    background: #d82c2e;
+} 
+#contact .heading h2{
+    color: #fff;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+#contact-form{
+    font-size: 20px;
+    color: #fff;
+}
+.form-control{
+    height: 50px;
+    font-size: 18px;
+}
+.comments{
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    height: 25px;
+}
+#contact-form input[type=submit]{
+    margin: 40px auto 0px;
+    display: block;
+}
+.thank-you{
+    text-align: center;
+    margin-top:15px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
 }
