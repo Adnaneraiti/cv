@@ -1,11 +1,8 @@
-/*GENERAL*/ 
-body{
-    font-family: 'Lato' sans-serif;
+/* GENERAL */
+body {
+    font-family: 'Lato', sans-serif;
 }
-html, body {
-    overflow-x: hidden; /* Cache la barre de défilement horizontale */
-}
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
 }
 img {
@@ -293,4 +290,41 @@ footer span:hover {
 footer h5 {
     color: white;
     font-weight: normal;
+}
+/*CONTACT*/
+#contact{
+    background: #d82c2e;
+} 
+#contact .heading h2{
+    color: #fff;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+#contact-form{
+    font-size: 20px;
+    color: #fff;
+}
+.contact-form{
+    height: 50px;
+    font-size: 18px;
+}
+.comments{
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    height: 25px;
+}
+#contact-form input[type=submit]{
+    margin: 40px auto 0px;
+    display: block;
+}
+.thank-you{
+    text-align: center;
+    margin-top:15px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
 }
