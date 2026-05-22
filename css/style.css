@@ -2,6 +2,40 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+.brand {
+  font-weight: bold;
+}
+.brand a {
+  color: inherit;       /* garde la couleur de la classe parent */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sogetrel{
+  color: #005a87;
+}
+
+.orange {
+  color: #ff6600;
+}
+.laposte a {
+  color: #0d6efd
+}
+.sfr {
+  color: #e2001a;
+}
+
+.free {
+  color: #cc0000;
+}
+.cimr {
+ color:#74AF26
+}
+.oncf{
+ color: #f60;
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
 }
